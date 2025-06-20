@@ -4,7 +4,7 @@ using namespace std;
 
 int main () {
   
-  float a,b,c;
+  double a,b,c;
   cout << "Enter the value of a" << endl;
   cin >> a;
   
@@ -15,8 +15,8 @@ int main () {
   cin >> c;
 
   if (pow(b,2) >= 4*a*c) {
-   float p = (-b + (sqrt (pow(b,2) - 4 * a * c)))/(2 * a);
-   float q = (-b - (sqrt (pow(b,2) - 4 * a * c)))/(2 * a);
+   double p = (-b + (sqrt (pow(b,2) - 4 * a * c)))/(2 * a);
+   double q = (-b - (sqrt (pow(b,2) - 4 * a * c)))/(2 * a);
    
    cout << "The roots of your quadratic equation is/are " << p << " and " << q << endl;}
   
